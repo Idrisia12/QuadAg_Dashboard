@@ -23,6 +23,7 @@ class App extends React.Component {
             <Col span={16}>
               <Card title=<img
                 src={marice}
+                alt={marice}
                 width="150"
                 />
                  bordered={false}>
