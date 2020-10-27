@@ -61,8 +61,8 @@ const SeeaDoctor = () => {
           <Title level={4} style={{ textAlign: 'center', color: '#32be8f'}}>Connect With Us</Title>
           <div style={{ textAlign: "center"}}>
             <a href="https://twitter.com/home"><TwitterOutlined /></a>
-            <a href="#"><FacebookOutlined /></a>
-            <a href="#"><LinkedinOutlined /></a>
+            <a href="https://www.nairaland.com/"><FacebookOutlined /></a>
+            <a href="https://www.nairaland.com/"><LinkedinOutlined /></a>
             </div>
     </div>
   );
