@@ -1,0 +1,25 @@
+.ant-input {
+  border-radius: 12px;
+}
+
+.ant-btn-primary{
+  background: #fff;
+  color: #32be8f;
+  border-color: #fff;
+  box-shadow: 2px 2px 2px 2px #32be8f;
+}
+
+.ant-btn-primary:hover{
+  background: #32be8f;
+  color: #fff;
+  border-color: #32be8f;
+  box-shadow: 2px 2px 2px 2px #f2f2f2;
+}
+
+.ant-upload.ant-upload-drag p.ant-upload-drag-icon .anticon {
+  color: #32be8f;
+}
+
+::selection{
+  color: #32be8f;
+}

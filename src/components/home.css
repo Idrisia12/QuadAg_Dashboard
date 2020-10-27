@@ -1,0 +1,17 @@
+#inlineExample {
+	width: 100%;
+	background: #fff;
+	overflow-x: scroll;
+	border: 1px solid #000;
+	border-radius: 5px;
+    white-space: nowrap;
+}
+
+#inlineExample>article {
+    border: 1px solid black;
+	display:inline-block;
+}
+
+.card-container {
+  text-align: justify;
+}

@@ -1,0 +1,76 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #32be8f;
+}
+
+.logo {
+  height: 32px;
+  background: #fff;
+  margin: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.ant-layout-sider{
+  height: 760px;
+  background: #32be8f;
+}
+
+.ant-menu.ant-menu-dark{
+  background: #32be8f;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.ant-menu-item.out{
+  margin-top: 250px;
+}
+
+.ant-menu-item.ant-menu-item:hover{
+   background: #fff;
+   color: #32be8f;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected{
+  background: #32be8f;
+}
+
+.ant-dropdown-trigger{
+  background-color: #32be8f;
+  border: none;
+}
+
+.ant-dropdown-trigger:hover{
+  color: #fff;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+  outline:none;
+}
+
+.ant-layout-sider-zero-width-trigger{
+   background-color: #32be8f;
+   color: white;
+}
+
+.ant-layout-sider-zero-width-trigger:hover{
+   background-color: #32be8f;
+   color: #fff;
+}
