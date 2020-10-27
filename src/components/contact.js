@@ -6,9 +6,8 @@ import {
      LinkedinOutlined
 } from '@ant-design/icons';
 
-import { Form, Input, Button, Select, DatePicker, Space, Upload } from "antd";
+import { Form, Input, Button } from "antd";
 import { Typography } from 'antd';
-import { InboxOutlined } from "@ant-design/icons";
 
 const { Title } = Typography;
 
