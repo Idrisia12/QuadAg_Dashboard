@@ -14,15 +14,14 @@ const layout = {
   wrapperCol: { span: 16 },
 };
 
-// eslint-disable-next-line
 const validateMessages = {
-  required: `${label} is required!`,
+  required: "${label} is required!", // eslint-disable-next-line
   types: {
-    email: `${label} is not validate email!`,
-    number: `${label} is not a validate number!`,
+    email: "${label} is not validate email!", // eslint-disable-next-line
+    number: "${label} is not a validate number!", // eslint-disable-next-line
   },
   number: {
-    range: `${label} must be between ${min} and ${max}`,
+    range: "${label} must be between ${min} and ${max}", // eslint-disable-next-line
   },
 };
 
