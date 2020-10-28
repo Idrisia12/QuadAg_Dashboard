@@ -16,16 +16,18 @@ const layout = {
   wrapperCol: { span: 16 },
 };
 
+/* eslint-disable no-debugger, no-console */
 const validateMessages = {
-  required: "${label} is required!", // eslint-disable-line no-use-before-define
+  required: '${label} is required!',
   types: {
-    email: "${label} is not validate email!", // eslint-disable-line no-use-before-define
-    number: "${label} is not a validate number!", // eslint-disable-line no-use-before-define
+    email: '${label} is not validate email!', 
+    number: '${label} is not a validate number!',
   },
   number: {
-    range: "${label} must be between ${min} and ${max}", // eslint-disable-line no-use-before-define
+    range: '${label} must be between ${min} and ${max}', 
   },
 };
+/* eslint-enable no-alert, no-console */
 
 const SeeaDoctor = () => {
   const onFinish = values => {
