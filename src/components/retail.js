@@ -15,13 +15,13 @@ const layout = {
 };
 
 const validateMessages = {
-  required: "${label} is required!", // eslint-disable-next-line
+  required: "${label} is required!", // eslint-disable-line no-use-before-define
   types: {
-    email: "${label} is not validate email!", // eslint-disable-next-line
-    number: "${label} is not a validate number!", // eslint-disable-next-line
+    email: "${label} is not validate email!", // eslint-disable-line no-use-before-define
+    number: "${label} is not a validate number!", // eslint-disable-line no-use-before-define
   },
   number: {
-    range: "${label} must be between ${min} and ${max}", // eslint-disable-next-line
+    range: "${label} must be between ${min} and ${max}", // eslint-disable-line no-use-before-define
   },
 };
 
