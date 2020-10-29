@@ -28,10 +28,10 @@ const SeeaDoctor = () => {
        <p style={{ textAlign: 'center'}}>You can reach us via the following channels.<span style={{ color: "#32be8f" }}>We will try to reply as soon as possible</span></p>
 
        <Form {...layout} name="nest-messages" onFinish={onFinish}>
-            <Form.Item name={['user', 'name']} rules={[{ required: true }]}>
+            <Form.Item name={['user', 'name']} label="Name" rules={[{ required: true }]}>
               <Input />
             </Form.Item>
-            <Form.Item name={['user', 'email']} rules={[{ type: 'email', required: true}]}>
+            <Form.Item name={['user', 'email']} label="Email" rules={[{ type: 'email', required: true}]}>
               <Input />
             </Form.Item>
             <Form.Item name={['user', 'introduction']} label="Message">
