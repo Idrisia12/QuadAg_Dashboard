@@ -14,18 +14,6 @@ const layout = {
   wrapperCol: { span: 16 },
 };
 
-/*eslint no-template-curly-in-string: "error"*/
-const validateMessages = {
-  required: "${label} is required!", 
-  types: {
-    email: "${label} is not validate email!", 
-    number: "${label} is not a validate number!", 
-  },
-  number: {
-    range: "${label} must be between ${min} and ${max}", 
-  },
-};
-
 const SeeaDoctor = () => {
   const onFinish = values => {
     console.log(values);
@@ -37,20 +25,20 @@ const SeeaDoctor = () => {
        <Title level={2} style={{ textAlign: 'center'}}>Retail Program</Title>
        <p style={{ textAlign: 'center', color: '#32be8f'}}>Fill the Form Below</p>
 
-       <Form {...layout} name="nest-messages" onFinish={onFinish} validateMessages={validateMessages}>
-            <Form.Item name={['user', 'name']} label="Full Name" rules={[{ required: true }]}>
+       <Form {...layout} name="nest-messages" onFinish={onFinish}>
+            <Form.Item name={['user', 'name']} rules={[{ required: true }]}>
               <Input />
             </Form.Item>
-            <Form.Item name={['user', 'email']} label="Email" rules={[{ type: 'email', required: true }]}>
+            <Form.Item name={['user', 'email']} rules={[{ type: 'email', required: true }]}>
               <Input />
             </Form.Item>
-            <Form.Item name={['user', 'phone']} label="Phone Number" rules={[{ type: 'phone' }]}>
+            <Form.Item name={['user', 'phone']} rules={[{ type: 'phone' }]}>
               <Input />
             </Form.Item>
-            <Form.Item name={['user', 'produce']} label="Produce Name" rules={[{ type: 'name' }]}>
+            <Form.Item name={['user', 'produce']} rules={[{ type: 'name' }]}>
               <Input />
             </Form.Item>
-            <Form.Item name={['user', 'produce']} label="Produce Weight" rules={[{ type: 'weight' }]}>
+            <Form.Item name={['user', 'produce']} rules={[{ type: 'weight' }]}>
               <Input />
             </Form.Item>
             <Form.Item wrapperCol={{ ...layout.wrapperCol, offset: 8 }}>
