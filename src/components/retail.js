@@ -26,19 +26,19 @@ const SeeaDoctor = () => {
        <p style={{ textAlign: 'center', color: '#32be8f'}}>Fill the Form Below</p>
 
        <Form {...layout} name="nest-messages" onFinish={onFinish}>
-            <Form.Item name={['user', 'name']} rules={[{ required: true }]}>
+            <Form.Item name={['user', 'name']}label="Name" rules={[{ required: true }]}>
               <Input />
             </Form.Item>
-            <Form.Item name={['user', 'email']} rules={[{ type: 'email', required: true }]}>
+            <Form.Item name={['user', 'email']} label="Email" rules={[{ type: 'email', required: true }]}>
               <Input />
             </Form.Item>
-            <Form.Item name={['user', 'phone']} rules={[{ type: 'phone' }]}>
+            <Form.Item name={['user', 'phone']} label="Phone" rules={[{ type: 'phone' }]}>
               <Input />
             </Form.Item>
-            <Form.Item name={['user', 'produce']} rules={[{ type: 'name' }]}>
+            <Form.Item name={['user', 'produce']} label="Produce Name" rules={[{ type: 'name' }]}>
               <Input />
             </Form.Item>
-            <Form.Item name={['user', 'produce']} rules={[{ type: 'weight' }]}>
+            <Form.Item name={['user', 'produce']} label="Weight/Quantity" rules={[{ type: 'weight' }]}>
               <Input />
             </Form.Item>
             <Form.Item wrapperCol={{ ...layout.wrapperCol, offset: 8 }}>
